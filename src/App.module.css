@@ -1,0 +1,39 @@
+body {
+    background-color: rgba(240, 240, 240, 240);
+}
+.container {
+   display: flex;
+   align-items: center;
+   justify-items: center;
+   flex-direction: column;
+}
+.image {
+    width: 370px;
+    margin-top: 50px;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .image {
+      width: 100%;
+    }
+  }
+
+  .covid {
+      
+    width: 370px;
+    margin-top: 50px;
+  }
+  
+  @media only screen and (max-width: 770px) {
+    .container {
+      margin: 0 10%;
+    }
+  
+    .covid {
+      width: 100%;
+    }
+  }
