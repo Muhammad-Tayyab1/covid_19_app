@@ -1,5 +1,6 @@
 body {
-    background-color: rgba(240, 240, 240, 240);
+
+    background-color: rgba(192, 184, 184, 0.5);
 }
 .container {
    display: flex;
@@ -37,3 +38,4 @@ body {
       width: 100%;
     }
   }
+ 
